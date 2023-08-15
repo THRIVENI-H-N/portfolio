@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Kannada&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,700;1,300;1,500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/528b50a4f0.js" crossorigin="anonymous"></script>
+
+    <title>Thriveni H N, web developer</title>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="logo.png"> -->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Thriveni H N</span> <br>from Bangalore</h1>
+        </div>
+    </div>
+</div>
+<!-- about section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="developer-image.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Completed 35+ Projects in Frontend Mentor Challenges.
+                    Expertise in HTML and CSS for building structured and visually.
+                    Proficiency in JavaScript for implementing interactive features.
+                    Experience working with ReactJS to build modular and reusable.
+                    Familiarity with JSON for storing and exchanging data between
+                    Ability to work with APIs to retrieve and display data from.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>
+                                web Developer
+                            </span></li>
+                            <li><span>
+                                Front End Developer
+                            </span></li>
+                            <li><span>
+                                RoR Developer
+                            </span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>
+                                RoR developer
+                            </span>
+                        <p>Completed internship program and developed proficiency in MVC architecture and routing in Ruby on Rails. Created articles and tables using Ruby on Rails framework. Gained experience in building dynamic and interactive web applications using Rails and Ruby on Rails.</p>
+                        </li>
+                            
+                            <!-- <li><span>
+                                Front End Developer
+                            </span></li>
+                            <li><span>
+                                RoR Developer
+                            </span></li>
+                        </ul> -->
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>
+                                2020
+                            </span><br>DR T THIMMAIAH iNSTITUTE OF TECHNOLOGY
+                        <SPAN>CGPA: <i>7</i></SPAN> </li>
+                            <!-- <li><span>
+                                Front End Developer
+                            </span></li>
+                            <li><span>
+                                RoR Developer
+                            </span></li>
+                        </ul> -->
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p> A dedicated web developer with a passion for crafting seamless, user-centric web experiences. I specialize in both front-end and back-end development, ensuring that every aspect of a web application functions smoothly and looks stunning.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Front End Development</h2>
+                <p> I have a knack for transforming design concepts into functional, pixel-perfect interfaces. Proficient in HTML, CSS, and JavaScript, I create responsive layouts that adapt seamlessly to various screen sizes and devices. Leveraging the latest front-end frameworks like React.js, I build interactive and intuitive user interfaces that engage and captivate users.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>RoR Development</h2>
+                <p> I'm deeply passionate about the Ruby on Rails framework and its ability to streamline complex development processes. My proficiency in RoR allows me to rapidly prototype ideas, develop feature-rich applications, and maintain codebases efficiently.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>ToDo app js</h3>
+                    <p>App to list the ToDo tasks. Which is available in mobile view also. In this project i have used the concepts of HTML, CSS and JavaScript. We can get responsive website.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Digital Clock Project</h3>
+                    <p>This is the project where we will get notify for the different times to do different work. It will work according to the live clock.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>React blog Project</h3>
+                    <p>In this project i have created single page application by using react routes ropic. This will helps us to merge different pages in one page.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+
+
+
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thrivenithiru000@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8861932907</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/thriveni-h-n-06444824b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/THRIVENI-H-N"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="thrivenihn(resume).pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="Email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>copyright @ Thriveni H N. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+<script src="portfolio.js"></script>
+
+
+
+    
+
+</body>
+</html>
